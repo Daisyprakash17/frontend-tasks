@@ -1,0 +1,603 @@
+[
+    {
+      "id": 1,
+      "name": "John Doe",
+      "title": "CEO",
+      "details": "John Doe is the CEO of the company with 20 years of experience in the industry. He is known for his strategic vision and leadership."
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "title": "CTO",
+      "details": "Jane Smith, as the CTO, leads the technology team with a strong background in software development and systems architecture."
+    },
+    {
+      "id": 3,
+      "name": "Emily Davis",
+      "title": "CFO",
+      "details": "Emily Davis is the CFO responsible for overseeing the financial operations of the company. She has a decade of experience in corporate finance."
+    },
+    {
+      "id": 4,
+      "name": "Michael Johnson",
+      "title": "COO",
+      "details": "Michael Johnson is the COO, ensuring the company's operations run smoothly. His expertise lies in operational efficiency and process optimization."
+    },
+    {
+      "id": 5,
+      "name": "Sarah Brown",
+      "title": "CMO",
+      "details": "Sarah Brown, the CMO, is in charge of the company's marketing strategies. She has successfully led several high-impact marketing campaigns."
+    },
+    {
+      "id": 6,
+      "name": "David Wilson",
+      "title": "Head of Sales",
+      "details": "David Wilson leads the sales department with a focus on expanding the customer base and improving sales processes."
+    },
+    {
+      "id": 7,
+      "name": "Laura Martinez",
+      "title": "Head of HR",
+      "details": "Laura Martinez oversees the HR department, focusing on employee development, recruitment, and workplace culture."
+    },
+    {
+      "id": 8,
+      "name": "James Lee",
+      "title": "Lead Developer",
+      "details": "James Lee is the Lead Developer, responsible for guiding the software development team and ensuring high-quality code."
+    },
+    {
+      "id": 9,
+      "name": "Patricia Anderson",
+      "title": "Product Manager",
+      "details": "Patricia Anderson manages product development, ensuring that new products meet customer needs and align with the company's goals."
+    },
+    {
+      "id": 10,
+      "name": "Robert Thomas",
+      "title": "UX Designer",
+      "details": "Robert Thomas is the UX Designer, creating user-friendly interfaces and improving the overall user experience of the company's products."
+    },
+    {
+      "id": 11,
+      "name": "Linda Harris",
+      "title": "Customer Support Lead",
+      "details": "Linda Harris leads the customer support team, focusing on resolving customer issues and enhancing customer satisfaction."
+    },
+    {
+      "id": 12,
+      "name": "Mark Young",
+      "title": "Head of Engineering",
+      "details": "Mark Young is the Head of Engineering, overseeing all engineering projects and ensuring technical excellence across the team."
+    },
+    {
+      "id": 13,
+      "name": "Susan King",
+      "title": "Data Scientist",
+      "details": "Susan King works as a Data Scientist, analyzing data to drive decision-making and providing insights that help shape company strategies."
+    },
+    {
+      "id": 14,
+      "name": "Christopher Green",
+      "title": "AI Specialist",
+      "details": "Christopher Green specializes in AI development, working on machine learning models and integrating AI into the company's products."
+    },
+    {
+      "id": 15,
+      "name": "Jessica Hall",
+      "title": "Legal Advisor",
+      "details": "Jessica Hall is the company's Legal Advisor, handling all legal matters and ensuring compliance with industry regulations."
+    },
+    {
+      "id": 16,
+      "name": "Joshua Scott",
+      "title": "Cybersecurity Expert",
+      "details": "Joshua Scott is responsible for safeguarding the company's digital assets and implementing robust cybersecurity measures."
+    },
+    {
+      "id": 17,
+      "name": "Angela Lewis",
+      "title": "Marketing Analyst",
+      "details": "Angela Lewis analyzes market trends and customer data to provide actionable insights for the marketing team."
+    },
+    {
+      "id": 18,
+      "name": "Steven Walker",
+      "title": "Operations Manager",
+      "details": "Steven Walker oversees day-to-day operations, ensuring the company runs efficiently and meets its operational goals."
+    },
+    {
+      "id": 19,
+      "name": "Karen Perez",
+      "title": "Public Relations Manager",
+      "details": "Karen Perez manages the company's public image and media relations, working to maintain a positive reputation."
+    },
+    {
+      "id": 20,
+      "name": "Matthew Turner",
+      "title": "Software Engineer",
+      "details": "Matthew Turner is a Software Engineer who specializes in backend development, focusing on building scalable systems."
+    },
+    {
+      "id": 21,
+      "name": "Nancy Parker",
+      "title": "Graphic Designer",
+      "details": "Nancy Parker is the Graphic Designer responsible for creating visual content that aligns with the company's brand identity."
+    },
+    {
+      "id": 22,
+      "name": "Paul Roberts",
+      "title": "Project Manager",
+      "details": "Paul Roberts manages projects from inception to completion, ensuring they are delivered on time and within budget."
+    },
+    {
+      "id": 23,
+      "name": "Donna White",
+      "title": "Financial Analyst",
+      "details": "Donna White works as a Financial Analyst, providing insights into the company's financial performance and advising on investment decisions."
+    },
+    {
+      "id": 24,
+      "name": "Kevin Moore",
+      "title": "Supply Chain Manager",
+      "details": "Kevin Moore manages the supply chain, ensuring the timely and efficient delivery of products and services."
+    },
+    {
+      "id": 25,
+      "name": "Sandra Taylor",
+      "title": "Content Strategist",
+      "details": "Sandra Taylor is responsible for developing and executing the company's content strategy, ensuring it aligns with business objectives."
+    },
+    {
+      "id": 26,
+      "name": "Brian Clark",
+      "title": "Network Administrator",
+      "details": "Brian Clark maintains the company's network infrastructure, ensuring reliable and secure connectivity across all systems."
+    },
+    {
+      "id": 27,
+      "name": "Carol Walker",
+      "title": "Recruitment Specialist",
+      "details": "Carol Walker specializes in recruitment, focusing on attracting top talent and managing the hiring process."
+    },
+    {
+      "id": 28,
+      "name": "George Martinez",
+      "title": "QA Engineer",
+      "details": "George Martinez works as a QA Engineer, ensuring that all products meet the company's quality standards before release."
+    },
+    {
+      "id": 29,
+      "name": "Jennifer Allen",
+      "title": "Business Analyst",
+      "details": "Jennifer Allen analyzes business processes and data to provide recommendations for improving efficiency and profitability."
+    },
+    {
+      "id": 30,
+      "name": "William Rodriguez",
+      "title": "Cloud Architect",
+      "details": "William Rodriguez designs and implements cloud-based solutions, ensuring scalability and reliability for the company's digital products."
+    },
+    {
+      "id": 31,
+      "name": "Deborah Hill",
+      "title": "Social Media Manager",
+      "details": "Deborah Hill manages the company's social media presence, creating content and engaging with followers to build brand loyalty."
+    },
+    {
+      "id": 32,
+      "name": "Richard Scott",
+      "title": "DevOps Engineer",
+      "details": "Richard Scott is a DevOps Engineer who automates and optimizes the development and deployment processes to improve efficiency."
+    },
+    {
+      "id": 33,
+      "name": "Barbara Adams",
+      "title": "Product Designer",
+      "details": "Barbara Adams designs user-centric products, focusing on aesthetics and functionality to create a seamless user experience."
+    },
+    {
+      "id": 34,
+      "name": "Charles Baker",
+      "title": "IT Support Specialist",
+      "details": "Charles Baker provides technical support to employees, resolving IT issues and maintaining hardware and software systems."
+    },
+    {
+      "id": 35,
+      "name": "Elizabeth Carter",
+      "title": "Corporate Trainer",
+      "details": "Elizabeth Carter designs and delivers training programs to enhance employee skills and knowledge across the company."
+    },
+    {
+      "id": 36,
+      "name": "Joseph Lee",
+      "title": "Sales Executive",
+      "details": "Joseph Lee is responsible for driving sales and building relationships with key clients to grow the company's revenue."
+    },
+    {
+      "id": 37,
+      "name": "Maria Evans",
+      "title": "Account Manager",
+      "details": "Maria Evans manages client accounts, ensuring customer satisfaction and identifying opportunities for account growth."
+    },
+    {
+      "id": 38,
+      "name": "Thomas Collins",
+      "title": "Mobile App Developer",
+      "details": "Thomas Collins develops mobile applications, focusing on creating intuitive and responsive apps for the company's customers."
+    },
+    {
+      "id": 39,
+      "name": "Margaret Rivera",
+      "title": "E-commerce Manager",
+      "details": "Margaret Rivera oversees the company's e-commerce platform, optimizing online sales and improving the customer shopping experience."
+    },
+    {
+      "id": 40,
+      "name": "Daniel Richardson",
+      "title": "System Administrator",
+      "details": "Daniel Richardson manages the company's IT infrastructure, ensuring system reliability, security, and performance."
+    },
+    {
+      "id": 41,
+      "name": "Patricia Sanders",
+      "title": "Communications Specialist",
+      "details": "Patricia Sanders handles internal and external communications, crafting messages that effectively convey the company's goals and values."
+    },
+    {
+      "id": 42,
+      "name": "Anthony Alexander",
+      "title": "Operations Coordinator",
+      "details": "Anthony Alexander supports the operations team, coordinating logistics and ensuring that projects are executed smoothly."
+    },
+    {
+      "id": 43,
+      "name": "Karen Nelson",
+      "title": "Senior Accountant",
+      "details": "Karen Nelson is a Senior Accountant responsible for financial reporting, budgeting, and maintaining accurate financial records."
+    },
+    {
+      "id": 44,
+      "name": "Steven Mitchell",
+      "title": "Innovation Manager",
+      "details": "Steven Mitchell drives innovation within the company, identifying new opportunities and leading initiatives to develop new products."
+    },
+    {
+      "id": 45,
+      "name": "Donna Perez",
+      "title": "Customer Success Manager",
+      "details": "Donna Perez ensures that customers achieve their desired outcomes, fostering long-term relationships and driving customer retention."
+    },
+    {
+      "id": 46,
+      "name": "Edward King",
+      "title": "Data Engineer",
+      "details": "Edward King designs and builds data pipelines, ensuring that the company can efficiently store, process, and analyze large datasets."
+    },
+    {
+      "id": 47,
+      "name": "Helen Phillips",
+      "title": "Risk Manager",
+      "details": "Helen Phillips identifies and mitigates risks, ensuring the company is protected against potential threats to its operations."
+    },
+    {
+      "id": 48,
+      "name": "Jason Campbell",
+      "title": "AI Researcher",
+      "details": "Jason Campbell conducts research in artificial intelligence, developing algorithms and models that enhance the company's technology offerings."
+    },
+    {
+      "id": 49,
+      "name": "Michelle Parker",
+      "title": "Technical Writer",
+      "details": "Michelle Parker creates documentation and technical content, ensuring that complex information is clearly communicated to users."
+    },
+    {
+      "id": 50,
+      "name": "Donald Murphy",
+      "title": "Customer Experience Lead",
+      "details": "Donald Murphy leads the customer experience team, focusing on improving customer interactions and ensuring a positive experience across all touchpoints."
+    },
+    {
+      "id": 51,
+      "name": "Laura Martinez",
+      "title": "Lead Developer",
+      "details": "Laura Martinez is the Lead Developer, guiding the software development team and ensuring high-quality code is produced."
+    },
+    {
+      "id": 52,
+      "name": "Christopher Green",
+      "title": "AI Specialist",
+      "details": "Christopher Green specializes in AI development, working on machine learning models and integrating AI into the company's products."
+    },
+    {
+      "id": 53,
+      "name": "Emily Davis",
+      "title": "CFO",
+      "details": "Emily Davis is the CFO responsible for overseeing the financial operations of the company. She has a decade of experience in corporate finance."
+    },
+    {
+      "id": 54,
+      "name": "Michael Johnson",
+      "title": "COO",
+      "details": "Michael Johnson is the COO, ensuring the company's operations run smoothly. His expertise lies in operational efficiency and process optimization."
+    },
+    {
+      "id": 55,
+      "name": "Sarah Brown",
+      "title": "CMO",
+      "details": "Sarah Brown, the CMO, is in charge of the company's marketing strategies. She has successfully led several high-impact marketing campaigns."
+    },
+    {
+      "id": 56,
+      "name": "David Wilson",
+      "title": "Head of Sales",
+      "details": "David Wilson leads the sales department with a focus on expanding the customer base and improving sales processes."
+    },
+    {
+      "id": 57,
+      "name": "Linda Harris",
+      "title": "Customer Support Lead",
+      "details": "Linda Harris leads the customer support team, focusing on resolving customer issues and enhancing customer satisfaction."
+    },
+    {
+      "id": 58,
+      "name": "Joshua Scott",
+      "title": "Cybersecurity Expert",
+      "details": "Joshua Scott is responsible for safeguarding the company's digital assets and implementing robust cybersecurity measures."
+    },
+    {
+      "id": 59,
+      "name": "Steven Walker",
+      "title": "Operations Manager",
+      "details": "Steven Walker oversees day-to-day operations, ensuring the company runs efficiently and meets its operational goals."
+    },
+    {
+      "id": 60,
+      "name": "Karen Perez",
+      "title": "Public Relations Manager",
+      "details": "Karen Perez manages the company's public image and media relations, working to maintain a positive reputation."
+    },
+    {
+      "id": 61,
+      "name": "Matthew Turner",
+      "title": "Software Engineer",
+      "details": "Matthew Turner is a Software Engineer who specializes in backend development, focusing on building scalable systems."
+    },
+    {
+      "id": 62,
+      "name": "Nancy Parker",
+      "title": "Graphic Designer",
+      "details": "Nancy Parker is the Graphic Designer responsible for creating visual content that aligns with the company's brand identity."
+    },
+    {
+      "id": 63,
+      "name": "Paul Roberts",
+      "title": "Project Manager",
+      "details": "Paul Roberts manages projects from inception to completion, ensuring they are delivered on time and within budget."
+    },
+    {
+      "id": 64,
+      "name": "Donna White",
+      "title": "Financial Analyst",
+      "details": "Donna White works as a Financial Analyst, providing insights into the company's financial performance and advising on investment decisions."
+    },
+    {
+      "id": 65,
+      "name": "Kevin Moore",
+      "title": "Supply Chain Manager",
+      "details": "Kevin Moore manages the supply chain, ensuring the timely and efficient delivery of products and services."
+    },
+    {
+      "id": 66,
+      "name": "Sandra Taylor",
+      "title": "Content Strategist",
+      "details": "Sandra Taylor is responsible for developing and executing the company's content strategy, ensuring it aligns with business objectives."
+    },
+    {
+      "id": 67,
+      "name": "Brian Clark",
+      "title": "Network Administrator",
+      "details": "Brian Clark maintains the company's network infrastructure, ensuring reliable and secure connectivity across all systems."
+    },
+    {
+      "id": 68,
+      "name": "Carol Walker",
+      "title": "Recruitment Specialist",
+      "details": "Carol Walker specializes in recruitment, focusing on attracting top talent and managing the hiring process."
+    },
+    {
+      "id": 69,
+      "name": "George Martinez",
+      "title": "QA Engineer",
+      "details": "George Martinez works as a QA Engineer, ensuring that all products meet the company's quality standards before release."
+    },
+    {
+      "id": 70,
+      "name": "Jennifer Allen",
+      "title": "Business Analyst",
+      "details": "Jennifer Allen analyzes business processes and data to provide recommendations for improving efficiency and profitability."
+    },
+    {
+      "id": 71,
+      "name": "William Rodriguez",
+      "title": "Cloud Architect",
+      "details": "William Rodriguez designs and implements cloud-based solutions, ensuring scalability and reliability for the company's digital products."
+    },
+    {
+      "id": 72,
+      "name": "Deborah Hill",
+      "title": "Social Media Manager",
+      "details": "Deborah Hill manages the company's social media presence, creating content and engaging with followers to build brand loyalty."
+    },
+    {
+      "id": 73,
+      "name": "Richard Scott",
+      "title": "DevOps Engineer",
+      "details": "Richard Scott is a DevOps Engineer who automates and optimizes the development and deployment processes to improve efficiency."
+    },
+    {
+      "id": 74,
+      "name": "Barbara Adams",
+      "title": "Product Designer",
+      "details": "Barbara Adams designs user-centric products, focusing on aesthetics and functionality to create a seamless user experience."
+    },
+    {
+      "id": 75,
+      "name": "Charles Baker",
+      "title": "IT Support Specialist",
+      "details": "Charles Baker provides technical support to employees, resolving IT issues and maintaining hardware and software systems."
+    },
+    {
+      "id": 76,
+      "name": "Elizabeth Carter",
+      "title": "Corporate Trainer",
+      "details": "Elizabeth Carter designs and delivers training programs to enhance employee skills and knowledge across the company."
+    },
+    {
+      "id": 77,
+      "name": "Joseph Lee",
+      "title": "Sales Executive",
+      "details": "Joseph Lee is responsible for driving sales and building relationships with key clients to grow the company's revenue."
+    },
+    {
+      "id": 78,
+      "name": "Maria Evans",
+      "title": "Account Manager",
+      "details": "Maria Evans manages client accounts, ensuring customer satisfaction and identifying opportunities for account growth."
+    },
+    {
+      "id": 79,
+      "name": "Thomas Collins",
+      "title": "Mobile App Developer",
+      "details": "Thomas Collins develops mobile applications, focusing on creating intuitive and responsive apps for the company's customers."
+    },
+    {
+      "id": 80,
+      "name": "Margaret Rivera",
+      "title": "E-commerce Manager",
+      "details": "Margaret Rivera oversees the company's e-commerce platform, optimizing online sales and improving the customer shopping experience."
+    },
+    {
+      "id": 81,
+      "name": "Daniel Richardson",
+      "title": "System Administrator",
+      "details": "Daniel Richardson manages the company's IT infrastructure, ensuring system reliability, security, and performance."
+    },
+    {
+      "id": 82,
+      "name": "Patricia Sanders",
+      "title": "Communications Specialist",
+      "details": "Patricia Sanders handles internal and external communications, crafting messages that effectively convey the company's goals and values."
+    },
+    {
+      "id": 83,
+      "name": "Anthony Alexander",
+      "title": "Operations Coordinator",
+      "details": "Anthony Alexander supports the operations team, coordinating logistics and ensuring that projects are executed smoothly."
+    },
+    {
+      "id": 84,
+      "name": "Karen Nelson",
+      "title": "Senior Accountant",
+      "details": "Karen Nelson is a Senior Accountant responsible for financial reporting, budgeting, and maintaining accurate financial records."
+    },
+    {
+      "id": 85,
+      "name": "Steven Mitchell",
+      "title": "Innovation Manager",
+      "details": "Steven Mitchell drives innovation within the company, identifying new opportunities and leading initiatives to develop new products."
+    },
+    {
+      "id": 86,
+      "name": "Donna Perez",
+      "title": "Customer Success Manager",
+      "details": "Donna Perez ensures that customers achieve their desired outcomes, fostering long-term relationships and driving customer retention."
+    },
+    {
+      "id": 87,
+      "name": "Edward King",
+      "title": "Data Engineer",
+      "details": "Edward King designs and builds data pipelines, ensuring that the company can efficiently store, process, and analyze large datasets."
+    },
+    {
+      "id": 88,
+      "name": "Helen Phillips",
+      "title": "Risk Manager",
+      "details": "Helen Phillips identifies and mitigates risks, ensuring the company is protected against potential threats to its operations."
+    },
+    {
+      "id": 89,
+      "name": "Jason Campbell",
+      "title": "AI Researcher",
+      "details": "Jason Campbell conducts research in artificial intelligence, developing algorithms and models that enhance the company's technology offerings."
+    },
+    {
+      "id": 90,
+      "name": "Michelle Parker",
+      "title": "Technical Writer",
+      "details": "Michelle Parker creates documentation and technical content, ensuring that complex information is clearly communicated to users."
+    },
+    {
+      "id": 91,
+      "name": "Donald Murphy",
+      "title": "Customer Experience Lead",
+      "details": "Donald Murphy leads the customer experience team, focusing on improving customer interactions and ensuring a positive experience across all touchpoints."
+    },
+    {
+      "id": 92,
+      "name": "Emma Clark",
+      "title": "Product Owner",
+      "details": "Emma Clark works as a Product Owner, defining the product vision, prioritizing features, and ensuring the product meets customer needs."
+    },
+    {
+      "id": 93,
+      "name": "Henry Lopez",
+      "title": "Performance Analyst",
+      "details": "Henry Lopez analyzes system performance and provides insights to optimize efficiency and reduce costs across operations."
+    },
+    {
+      "id": 94,
+      "name": "Olivia Wright",
+      "title": "Content Marketing Specialist",
+      "details": "Olivia Wright creates and manages content marketing strategies, driving engagement and promoting the company's products and services."
+    },
+    {
+      "id": 95,
+      "name": "Elijah Walker",
+      "title": "Data Analyst",
+      "details": "Elijah Walker collects, processes, and analyzes data to provide actionable insights that inform business decisions."
+    },
+    {
+      "id": 96,
+      "name": "Sophia Lewis",
+      "title": "SEO Specialist",
+      "details": "Sophia Lewis optimizes the company's digital content for search engines, improving visibility and driving organic traffic."
+    },
+    {
+      "id": 97,
+      "name": "Benjamin Harris",
+      "title": "IT Project Manager",
+      "details": "Benjamin Harris manages IT projects, ensuring they are delivered on time, within scope, and meet the company's technical requirements."
+    },
+    {
+      "id": 98,
+      "name": "Chloe Wood",
+      "title": "HR Manager",
+      "details": "Chloe Wood leads the HR department, focusing on employee engagement, development, and organizational culture."
+    },
+    {
+      "id": 99,
+      "name": "Liam Jones",
+      "title": "Compliance Officer",
+      "details": "Liam Jones ensures the company adheres to regulatory requirements, conducting audits and implementing compliance programs."
+    },
+    {
+      "id": 100,
+      "name": "Isabella Moore",
+      "title": "Web Developer",
+      "details": "Isabella Moore develops and maintains the company's website, ensuring it is user-friendly, secure, and optimized for performance."
+    }
+  ]
+  
