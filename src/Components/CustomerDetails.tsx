@@ -108,7 +108,6 @@ const CustomerDetails: React.FC<Props> = ({ selectedCustomer }) => {
               <img
                 key={index}
                 src={photo}
-                alt={`Image ${index + 1}`} // Updated alt text
                 style={getPhotoStyle(index)}
                 onMouseEnter={() => setHoveredPhoto(index)}
                 onMouseLeave={() => setHoveredPhoto(null)}
