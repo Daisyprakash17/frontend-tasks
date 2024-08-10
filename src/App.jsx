@@ -1,10 +1,10 @@
+import React from 'react'; // Import React to fix the linting error
 import HomePage from './Pages/HomePage';
 
 function App() {
   return (
     <div className="App">
-      
-      <HomePage/>
+      <HomePage />
     </div>
   );
 }
