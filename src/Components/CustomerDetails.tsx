@@ -1,5 +1,3 @@
-// src/Components/CustomerDetails.tsx
-
 import React, { useEffect, useState } from 'react';
 
 type User = {
@@ -65,7 +63,6 @@ const CustomerDetails: React.FC<Props> = ({ selectedCustomer }) => {
     marginBottom: '20px',
     textAlign: 'center',
     overflowWrap: 'break-word', // Ensure text wraps within container
-    height:"50px"
   };
 
   const gridContainerStyle: React.CSSProperties = {
@@ -111,7 +108,7 @@ const CustomerDetails: React.FC<Props> = ({ selectedCustomer }) => {
               <img
                 key={index}
                 src={photo}
-                alt={`Photo ${index}`}
+                alt={`Customer photo ${index + 1}`} // Updated alt text
                 style={getPhotoStyle(index)}
                 onMouseEnter={() => setHoveredPhoto(index)}
                 onMouseLeave={() => setHoveredPhoto(null)}
