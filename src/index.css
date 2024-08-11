@@ -1,29 +1,54 @@
+/* Variables */
+:root {
+  --font-family: "Quicksand", sans-serif;
+  --background-gradient: linear-gradient(135deg, #e2e2e2 0%, #ffffff 100%);
+  --text-color: #333;
+  --header-bg-gradient: linear-gradient(135deg, #ffffff 0%, #f0f0f0 100%);
+  --border-color: #ddd;
+  --shadow-light: rgba(0, 0, 0, 0.1);
+  --shadow-medium: rgba(0, 0, 0, 0.2);
+  --white-bg: #ffffff;
+  --gray-bg: #f9f9f9;
+  --teal-hover: #e0f7fa;
+  --blue-selected: #d1e7ff;
+  --scrollbar-thumb: #888;
+  --scrollbar-track: #f1f1f1;
+  --scrollbar-thumb-alt: #aaa;
+  --scrollbar-track-alt: #eaeaea;
+}
+
 /* General styles */
 body {
-  font-family: "Quicksand", sans-serif; /* Modern font */
+  font-family: var(--font-family);
   margin: 0;
   padding: 0;
-  background: linear-gradient(135deg, #e2e2e2 0%, #ffffff 100%); /* Light gradient background */
-  color: #333; /* Darker text color for better readability */
+  background: var(--background-gradient);
+  color: var(--text-color);
+  padding-top: 80px;
 }
 
 /* Centered header */
 .centered-header {
   display: flex;
   justify-content: center;
-  align-items: center; /* Center content vertically */
+  align-items: center;
   text-align: center;
-  background: linear-gradient(135deg, #ffffff 0%, #f0f0f0 100%); /* Light gradient background */
-  color: #333; /* Darker text color for contrast */
-  padding: 20px; /* Add padding around content */
-  border-bottom: 1px solid #ddd; /* Subtle border for separation */
-  border-radius: 0 0 10px 10px; /* Rounded bottom corners */
-  margin-bottom: 20px; /* Space below the header */
+  background: var(--header-bg-gradient);
+  color: var(--text-color);
+  padding: 20px;
+  border-bottom: 1px solid var(--border-color);
+  border-radius: 0 0 10px 10px;
+  margin-bottom: 50px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
 }
 
 /* Header title */
 .centered-header h1 {
-  font-size: 2.5rem; /* Larger font size for prominence */
+  font-size: 2.5rem;
   font-weight: 700;
   margin: 0;
   padding: 0;
@@ -34,11 +59,11 @@ body {
   display: flex;
   height: 100vh;
   min-width: 800px;
-  border: 1px solid #ddd; /* Subtle border around the panels */
-  border-radius: 10px; /* Rounded corners for the container */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
-  overflow: hidden; /* Ensure content doesn't overflow */
-  background-color: #ffffff; /* Ensure a consistent background color */
+  border: 1px solid var(--border-color);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px var(--shadow-light);
+  overflow: hidden;
+  background-color: var(--white-bg);
 }
 
 /* Card styles */
@@ -47,43 +72,43 @@ body {
   margin-bottom: 10px;
   cursor: pointer;
   border-radius: 8px;
-  border: 1px solid #ddd;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* More prominent shadow */
-  background-color: #ffffff; /* White background for cards */
+  border: 1px solid var(--border-color);
+  box-shadow: 0 4px 8px var(--shadow-light);
+  background-color: var(--white-bg);
   transition: background-color 0.3s, box-shadow 0.3s;
 }
 
 .customer-card:hover {
-  background-color: #e0f7fa; /* Light teal background on hover */
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+  background-color: var(--teal-hover);
+  box-shadow: 0 6px 12px var(--shadow-medium);
 }
 
 /* Selected card styles */
 .customer-card.selected {
-  background-color: #d1e7ff; /* Light blue background for selected card */
+  background-color: var(--blue-selected);
 }
 
 /* Right panel */
 .right-panel {
-  width: calc(70% - 50px); /* Adjust width to account for space between panels */
+  width: calc(70% - 50px);
   padding: 20px;
-  background-color: #ffffff; /* White background */
-  border-left: 1px solid #ddd;
+  background-color: var(--white-bg);
+  border-left: 1px solid var(--border-color);
   overflow-y: auto;
   height: 100vh;
-  box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.1);
-  scrollbar-width: thin; /* For Firefox */
-  scrollbar-color: #aaa #eaeaea; /* For Firefox */
-  margin-left: 10px; /* Space between left and right panel */
+  box-shadow: inset 0 0 15px var(--shadow-light);
+  scrollbar-width: thin;
+  scrollbar-color: var(--scrollbar-thumb-alt) var(--scrollbar-track-alt);
+  margin-left: 10px;
 }
 
 /* Customer details title */
 .customer-title {
   font-size: 2rem;
   font-weight: 700;
-  color: #333;
+  color: var(--text-color);
   margin: 0 0 10px;
-  text-align: center; /* Center align the text */
+  text-align: center;
 }
 
 /* Customer details text */
@@ -93,7 +118,7 @@ body {
   line-height: 1.6;
   margin-bottom: 20px;
   overflow-wrap: break-word;
-  text-align: center; /* Center align the text */
+  text-align: center;
 }
 
 /* Photo grid */
@@ -107,10 +132,10 @@ body {
 /* Photo styles */
 .photo-grid img {
   width: 100%;
-  height: 180px;
+  height: 200px;
   object-fit: cover;
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 8px var(--shadow-medium);
   transition: transform 0.3s ease-in-out;
   cursor: pointer;
 }
@@ -121,12 +146,12 @@ body {
 
 /* Left panel */
 .left-panel {
-  width: calc(30% - 50px); /* Adjust width to account for space between panels */
-  border-right: 1px solid #ddd;
+  width: calc(30% - 50px);
+  border-right: 1px solid var(--border-color);
   padding: 20px;
   overflow-y: auto;
-  background-color: #f9f9f9; /* Light gray background */
-  height: 100vh; /* Ensure full height for scrolling */
-  scrollbar-width: thin; /* For Firefox */
-  scrollbar-color: #888 #f1f1f1; /* For Firefox */
+  background-color: var(--gray-bg);
+  height: 100vh;
+  scrollbar-width: thin;
+  scrollbar-color: var(--scrollbar-thumb) var(--scrollbar-track);
 }

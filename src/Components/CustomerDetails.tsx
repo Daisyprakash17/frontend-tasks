@@ -1,11 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import '../index.css'
-type User = {
-  id: number;
-  name: string;
-  title: string;
-  details: string;
-};
+import { User } from '../types/userType';
+import '../index.css';
 
 type Props = {
   selectedCustomer: User | null;

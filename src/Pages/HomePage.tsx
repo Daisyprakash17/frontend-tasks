@@ -14,7 +14,6 @@ type User = {
 export default function HomePage() {
   const [selectedCustomer, setSelectedCustomer] = useState<User | null>(null);
 
-  // Set the first customer as the default selected customer
   useEffect(() => {
     if (users.length > 0) {
       setSelectedCustomer(users[0]);

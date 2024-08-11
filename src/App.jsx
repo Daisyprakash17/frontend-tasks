@@ -1,4 +1,4 @@
-import React from 'react'; // Import React to fix the linting error
+import React from 'react';
 import HomePage from './Pages/HomePage';
 
 function App() {

@@ -1,13 +1,7 @@
 import React from 'react';
+import { User } from '../types/userType'; 
 import CustomerCard from './CustomerCard';
-import '../index.css'; // Import the global CSS file
-
-type User = {
-  id: number;
-  name: string;
-  title: string;
-  details: string;
-};
+import '../index.css';
 
 type Props = {
   users: User[];
