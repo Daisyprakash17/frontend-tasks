@@ -38,8 +38,6 @@ const CustomerDetails: React.FC<Props> = ({ selectedCustomer }) => {
                 key={index}
                 src={photo}
                 alt=""
-                onMouseEnter={() => setHoveredPhoto(index)}
-                onMouseLeave={() => setHoveredPhoto(null)}
               />
             ))}
           </div>
