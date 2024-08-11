@@ -24,7 +24,7 @@ body {
   padding: 0;
   background: var(--background-gradient);
   color: var(--text-color);
-  padding-top: 80px;
+  padding-top: 110px; /* Adjust this to control the fixed space */
 }
 
 /* Centered header */
@@ -38,7 +38,6 @@ body {
   padding: 20px;
   border-bottom: 1px solid var(--border-color);
   border-radius: 0 0 10px 10px;
-  margin-bottom: 50px;
   position: fixed;
   top: 0;
   left: 0;
@@ -57,13 +56,14 @@ body {
 /* Container for left and right panels */
 .panels-container {
   display: flex;
-  height: 100vh;
   min-width: 800px;
   border: 1px solid var(--border-color);
   border-radius: 10px;
   box-shadow: 0 4px 8px var(--shadow-light);
   overflow: hidden;
   background-color: var(--white-bg);
+  margin-top: 0px; /* Adjust if needed */
+  height: calc(100vh ); /* Same value as body padding-top to maintain consistent spacing */
 }
 
 /* Card styles */
@@ -95,11 +95,11 @@ body {
   background-color: var(--white-bg);
   border-left: 1px solid var(--border-color);
   overflow-y: auto;
-  height: 100vh;
   box-shadow: inset 0 0 15px var(--shadow-light);
   scrollbar-width: thin;
   scrollbar-color: var(--scrollbar-thumb-alt) var(--scrollbar-track-alt);
   margin-left: 10px;
+  height: 100%; /* Ensure it fills the remaining height of the container */
 }
 
 /* Customer details title */
