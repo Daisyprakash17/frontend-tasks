@@ -101,7 +101,6 @@ const CustomerDetails: React.FC<Props> = ({ selectedCustomer }) => {
       {selectedCustomer ? (
         <div>
           <h2 style={titleStyle}>{selectedCustomer.name}</h2>
-          <h4 style={subtitleStyle}>{selectedCustomer.title}</h4>
           <p style={detailsStyle}>{selectedCustomer.details}</p>
           <div style={gridContainerStyle}>
             {photos.map((photo, index) => (
