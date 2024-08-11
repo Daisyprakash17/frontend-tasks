@@ -48,13 +48,7 @@ const CustomerDetails: React.FC<Props> = ({ selectedCustomer }) => {
     textAlign: 'center',
   };
 
-  const subtitleStyle: React.CSSProperties = {
-    fontSize: '1.6rem',
-    fontWeight: '600',
-    color: '#555',
-    margin: '0 0 15px',
-    textAlign: 'center',
-  };
+ 
 
   const detailsStyle: React.CSSProperties = {
     fontSize: '1.1rem',
