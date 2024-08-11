@@ -13,7 +13,6 @@ type Props = {
 
 const CustomerDetails: React.FC<Props> = ({ selectedCustomer }) => {
   const [photos, setPhotos] = useState<string[]>([]);
-  const [hoveredPhoto, setHoveredPhoto] = useState<number | null>(null);
 
   useEffect(() => {
     const fetchPhotos = () => {
