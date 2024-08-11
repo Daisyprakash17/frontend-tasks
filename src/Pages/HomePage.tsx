@@ -1,7 +1,8 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import users from '../Data/users.json';
 import CustomerDetails from '../Components/CustomerDetails';
 import CustomerList from '../Components/CustomerList';
+import '../index.css';
 
 type User = {
   id: number;
@@ -13,17 +14,24 @@ type User = {
 export default function HomePage() {
   const [selectedCustomer, setSelectedCustomer] = useState<User | null>(null);
 
+  // Set the first customer as the default selected customer
+  useEffect(() => {
+    if (users.length > 0) {
+      setSelectedCustomer(users[0]);
+    }
+  }, []);
+
   return (
     <div>
-      <div style={{display:"flex",justifyContent:"center"}}>
-  <h1 style={{display: "inline"}}>Customers</h1>
-  </div>
-
-      <div style={{ display: 'flex', height: '100vh', minWidth: '800px' }}>
-        {/* Left side: Customer List */}
-        <CustomerList users={users} selectedCustomer={selectedCustomer} setSelectedCustomer={setSelectedCustomer} />
-
-        {/* Right side: Customer Details */}
+      <div className="centered-header">
+        <h1>Customers</h1>
+      </div>
+      <div className="panels-container">
+        <CustomerList
+          users={users}
+          selectedCustomer={selectedCustomer}
+          setSelectedCustomer={setSelectedCustomer}
+        />
         <CustomerDetails selectedCustomer={selectedCustomer} />
       </div>
     </div>
